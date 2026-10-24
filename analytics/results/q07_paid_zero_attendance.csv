@@ -1,0 +1,59 @@
+payroll_month,emp_id,full_name,dept_id,dept_name,plant,separation_date,gross_pay,attendance_rows,reason
+2026-06,E10295,Sohail Hussain,D15,Finishing,SITE Plant,2026-05-11,63450.0,0,Paid after separation
+2026-07,E10295,Sohail Hussain,D15,Finishing,SITE Plant,2026-05-11,63450.0,0,Paid after separation
+2026-08,E10295,Sohail Hussain,D15,Finishing,SITE Plant,2026-05-11,63450.0,0,Paid after separation
+2026-09,E10295,Sohail Hussain,D15,Finishing,SITE Plant,2026-05-11,63450.0,0,Paid after separation
+2026-06,E10332,Amna Awan,D25,Warehouse,Faisalabad Plant,2026-05-14,80500.0,0,Paid after separation
+2026-07,E10332,Amna Awan,D25,Warehouse,Faisalabad Plant,2026-05-14,80500.0,0,Paid after separation
+2026-08,E10332,Amna Awan,D25,Warehouse,Faisalabad Plant,2026-05-14,80500.0,0,Paid after separation
+2026-09,E10332,Amna Awan,D25,Warehouse,Faisalabad Plant,2026-05-14,80500.0,0,Paid after separation
+2026-05,E10397,Owais Mirza,D08,Spinning,Korangi Plant,2026-05-01,2122.0,1,Employed but no attended day in the month
+2026-04,E10399,Fatima Chaudhry,D14,Dyeing,SITE Plant,,85925.0,30,No biometric device mapping (never punched)
+2026-05,E10399,Fatima Chaudhry,D14,Dyeing,SITE Plant,,85925.0,31,No biometric device mapping (never punched)
+2026-06,E10399,Fatima Chaudhry,D14,Dyeing,SITE Plant,,85925.0,30,No biometric device mapping (never punched)
+2026-07,E10399,Fatima Chaudhry,D14,Dyeing,SITE Plant,,94450.0,31,No biometric device mapping (never punched)
+2026-08,E10399,Fatima Chaudhry,D14,Dyeing,SITE Plant,,94450.0,31,No biometric device mapping (never punched)
+2026-09,E10399,Fatima Chaudhry,D14,Dyeing,SITE Plant,,94450.0,30,No biometric device mapping (never punched)
+2026-05,E10471,Umair Baloch,D01,Human Resources,Head Office,2026-04-23,132000.0,0,Paid after separation
+2026-06,E10471,Umair Baloch,D01,Human Resources,Head Office,2026-04-23,132000.0,0,Paid after separation
+2026-07,E10471,Umair Baloch,D01,Human Resources,Head Office,2026-04-23,132000.0,0,Paid after separation
+2026-08,E10471,Umair Baloch,D01,Human Resources,Head Office,2026-04-23,132000.0,0,Paid after separation
+2026-09,E10471,Umair Baloch,D01,Human Resources,Head Office,2026-04-23,132000.0,0,Paid after separation
+2026-04,E10491,Sajid Javed,D22,Packing,Faisalabad Plant,,77400.0,30,No biometric device mapping (never punched)
+2026-05,E10491,Sajid Javed,D22,Packing,Faisalabad Plant,,77400.0,31,No biometric device mapping (never punched)
+2026-06,E10491,Sajid Javed,D22,Packing,Faisalabad Plant,,77400.0,30,No biometric device mapping (never punched)
+2026-07,E10491,Sajid Javed,D22,Packing,Faisalabad Plant,,85150.0,31,No biometric device mapping (never punched)
+2026-08,E10491,Sajid Javed,D22,Packing,Faisalabad Plant,,85150.0,31,No biometric device mapping (never punched)
+2026-09,E10491,Sajid Javed,D22,Packing,Faisalabad Plant,,85150.0,30,No biometric device mapping (never punched)
+2026-04,E10564,Danish Hashmi,D23,Maintenance,Faisalabad Plant,,64225.0,30,No biometric device mapping (never punched)
+2026-05,E10564,Danish Hashmi,D23,Maintenance,Faisalabad Plant,,64225.0,31,No biometric device mapping (never punched)
+2026-06,E10564,Danish Hashmi,D23,Maintenance,Faisalabad Plant,,64225.0,30,No biometric device mapping (never punched)
+2026-07,E10564,Danish Hashmi,D23,Maintenance,Faisalabad Plant,,70425.0,31,No biometric device mapping (never punched)
+2026-08,E10564,Danish Hashmi,D23,Maintenance,Faisalabad Plant,,70425.0,31,No biometric device mapping (never punched)
+2026-09,E10564,Danish Hashmi,D23,Maintenance,Faisalabad Plant,,70425.0,30,No biometric device mapping (never punched)
+2026-04,E10907,Sohail Baig,D21,Cutting,Faisalabad Plant,,73525.0,30,No biometric device mapping (never punched)
+2026-05,E10907,Sohail Baig,D21,Cutting,Faisalabad Plant,,73525.0,31,No biometric device mapping (never punched)
+2026-06,E10907,Sohail Baig,D21,Cutting,Faisalabad Plant,,73525.0,30,No biometric device mapping (never punched)
+2026-07,E10907,Sohail Baig,D21,Cutting,Faisalabad Plant,,80500.0,31,No biometric device mapping (never punched)
+2026-08,E10907,Sohail Baig,D21,Cutting,Faisalabad Plant,,80500.0,31,No biometric device mapping (never punched)
+2026-09,E10907,Sohail Baig,D21,Cutting,Faisalabad Plant,,80500.0,30,No biometric device mapping (never punched)
+2026-06,E10989,Tariq Jatoi,D22,Packing,Faisalabad Plant,2026-05-18,73525.0,0,Paid after separation
+2026-07,E10989,Tariq Jatoi,D22,Packing,Faisalabad Plant,2026-05-18,73525.0,0,Paid after separation
+2026-08,E10989,Tariq Jatoi,D22,Packing,Faisalabad Plant,2026-05-18,73525.0,0,Paid after separation
+2026-09,E10989,Tariq Jatoi,D22,Packing,Faisalabad Plant,2026-05-18,73525.0,0,Paid after separation
+2026-04,E11064,Sajid Memon,D25,Warehouse,Faisalabad Plant,,81275.0,30,No biometric device mapping (never punched)
+2026-05,E11064,Sajid Memon,D25,Warehouse,Faisalabad Plant,,81275.0,31,No biometric device mapping (never punched)
+2026-06,E11064,Sajid Memon,D25,Warehouse,Faisalabad Plant,,81275.0,30,No biometric device mapping (never punched)
+2026-07,E11064,Sajid Memon,D25,Warehouse,Faisalabad Plant,,89025.0,31,No biometric device mapping (never punched)
+2026-08,E11064,Sajid Memon,D25,Warehouse,Faisalabad Plant,,89025.0,31,No biometric device mapping (never punched)
+2026-09,E11064,Sajid Memon,D25,Warehouse,Faisalabad Plant,,89025.0,30,No biometric device mapping (never punched)
+2026-04,E11089,Sajid Javed,D09,Weaving,Korangi Plant,,75075.0,30,No biometric device mapping (never punched)
+2026-05,E11089,Sajid Javed,D09,Weaving,Korangi Plant,,75075.0,31,No biometric device mapping (never punched)
+2026-06,E11089,Sajid Javed,D09,Weaving,Korangi Plant,,75075.0,30,No biometric device mapping (never punched)
+2026-07,E11089,Sajid Javed,D09,Weaving,Korangi Plant,,82050.0,31,No biometric device mapping (never punched)
+2026-08,E11089,Sajid Javed,D09,Weaving,Korangi Plant,,82050.0,31,No biometric device mapping (never punched)
+2026-09,E11089,Sajid Javed,D09,Weaving,Korangi Plant,,82050.0,30,No biometric device mapping (never punched)
+2026-06,E11222,Naveed Ansari,D14,Dyeing,SITE Plant,2026-05-16,104525.0,0,Paid after separation
+2026-07,E11222,Naveed Ansari,D14,Dyeing,SITE Plant,2026-05-16,104525.0,0,Paid after separation
+2026-08,E11222,Naveed Ansari,D14,Dyeing,SITE Plant,2026-05-16,104525.0,0,Paid after separation
+2026-09,E11222,Naveed Ansari,D14,Dyeing,SITE Plant,2026-05-16,104525.0,0,Paid after separation

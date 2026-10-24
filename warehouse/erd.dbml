@@ -1,0 +1,119 @@
+Table dim_department {
+  department_key int [pk]
+  dept_id varchar
+  dept_name varchar
+  plant varchar
+  cost_center varchar
+  previous_name varchar
+  renamed_on varchar
+}
+
+Table dim_date {
+  date_key int [pk]
+  full_date varchar
+  year varchar
+  quarter varchar
+  month varchar
+  year_month varchar
+  day_of_week varchar
+  is_sunday varchar
+  week_start varchar
+  month_end varchar
+  is_month_end varchar
+}
+
+Table dim_shift {
+  shift_key int [pk]
+  shift_code varchar
+  shift_name varchar
+  start_time varchar
+  end_time varchar
+  crosses_midnight varchar
+  grace_minutes varchar
+}
+
+Table dim_employee {
+  employee_key int [pk]
+  emp_id varchar
+  full_name varchar
+  gender varchar
+  plant varchar
+  employment_type varchar
+  status varchar
+  hire_date varchar
+  separation_date varchar
+  annual_leave_entitlement varchar
+  has_device_mapping varchar
+  department_key int
+  designation varchar
+  grade varchar
+  basic_salary varchar
+  change_reason varchar
+  valid_from varchar
+  valid_to varchar
+  is_current varchar
+}
+
+Table fact_attendance_daily {
+  attendance_key int [pk]
+  employee_key int
+  department_key int
+  shift_key int
+  date_key int
+  status varchar
+  is_working_day varchar
+  n_punches varchar
+  check_in varchar
+  check_out varchar
+  worked_hours varchar
+  late_minutes varchar
+  early_departure_minutes varchar
+  overtime_hours varchar
+  overtime_type varchar
+}
+
+Table fact_leave_day {
+  leave_day_key int [pk]
+  employee_key int
+  department_key int
+  date_key int
+  leave_type varchar
+  request_id varchar
+}
+
+Table fact_overtime_approved {
+  request_id int [pk]
+  employee_key int
+  department_key int
+  date_key int
+  requested_hours varchar
+  approved_hours varchar
+  approver_id varchar
+}
+
+Table fact_payroll_line {
+  line_id int [pk]
+  employee_key int
+  department_key int
+  date_key int
+  payroll_month varchar
+  component varchar
+  component_type varchar
+  units varchar
+  amount varchar
+}
+
+Ref: fact_attendance_daily.department_key > dim_department.department_key
+Ref: fact_attendance_daily.date_key > dim_date.date_key
+Ref: fact_attendance_daily.shift_key > dim_shift.shift_key
+Ref: fact_attendance_daily.employee_key > dim_employee.employee_key
+Ref: fact_leave_day.department_key > dim_department.department_key
+Ref: fact_leave_day.date_key > dim_date.date_key
+Ref: fact_leave_day.employee_key > dim_employee.employee_key
+Ref: fact_overtime_approved.department_key > dim_department.department_key
+Ref: fact_overtime_approved.date_key > dim_date.date_key
+Ref: fact_overtime_approved.employee_key > dim_employee.employee_key
+Ref: fact_payroll_line.department_key > dim_department.department_key
+Ref: fact_payroll_line.date_key > dim_date.date_key
+Ref: fact_payroll_line.employee_key > dim_employee.employee_key
+Ref: dim_employee.department_key > dim_department.department_key

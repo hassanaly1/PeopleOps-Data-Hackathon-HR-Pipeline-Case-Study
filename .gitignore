@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.venv/
+# the dataset pack is handed out by mentors; do not commit it
+data/

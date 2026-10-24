@@ -1,0 +1,11 @@
+position,late_rank,emp_id,full_name,dept_id,dept_name,plant,late_arrivals,total_late_minutes
+1,1,E10580,Usman Gill,D21,Cutting,Faisalabad Plant,58,2596
+2,2,E10454,Raheel Khan,D23,Maintenance,Faisalabad Plant,51,2126
+3,3,E10982,Adnan Akhtar,D13,Production Planning,Korangi Plant,49,1932
+4,4,E10283,Ali Raza,D21,Cutting,Faisalabad Plant,47,2238
+5,4,E10287,Naveed Hussain,D24,Quality Control,Faisalabad Plant,47,2060
+6,4,E10824,Usman Baig,D08,Spinning,Korangi Plant,47,1825
+7,7,E10741,Faisal Khan,D21,Cutting,Faisalabad Plant,46,2022
+8,7,E10984,Ahmed Qureshi,D09,Weaving,Korangi Plant,46,2005
+9,9,E11026,Umair Ansari,D19,Utilities,SITE Plant,45,1997
+10,9,E10901,Owais Awan,D09,Weaving,Korangi Plant,45,1913

@@ -1,0 +1,15 @@
+dept_id,applications,interviewed,offered,hired,applied_to_hired_pct,dept_name,plant
+D02,96,18,6,6,6.2,Finance,Head Office
+D05,85,13,5,4,4.7,Sales & Marketing,Head Office
+D06,38,4,0,0,0.0,Administration,Head Office
+D08,162,34,18,14,8.6,Spinning,Korangi Plant
+D11,42,8,2,2,4.8,Quality Control,Korangi Plant
+D14,121,22,7,6,5.0,Dyeing,SITE Plant
+D15,143,32,7,4,2.8,Finishing,SITE Plant
+D16,42,10,3,3,7.1,Maintenance,SITE Plant
+D18,89,15,5,3,3.4,Warehouse,SITE Plant
+D20,50,6,3,3,6.0,Stitching,Faisalabad Plant
+D21,180,34,13,12,6.7,Cutting,Faisalabad Plant
+D22,105,23,9,8,7.6,Packing,Faisalabad Plant
+D23,156,31,8,6,3.8,Maintenance,Faisalabad Plant
+D25,91,13,4,3,3.3,Warehouse,Faisalabad Plant

@@ -1,0 +1,8 @@
+stage,kind,applications_reached,conversion_from_previous_pct,conversion_from_applied_pct,median_days_in_stage,applications_with_next_event
+Applied,funnel,1400,,100.0,8.0,1400
+Screened,funnel,682,48.7,48.7,8.0,682
+Interviewed,funnel,263,38.6,18.8,9.0,263
+Offered,funnel,90,34.2,6.4,8.0,90
+Hired,funnel,74,82.2,5.3,,0
+Rejected,exit,1310,,93.6,,0
+Offer Declined,exit,16,,1.1,,0
