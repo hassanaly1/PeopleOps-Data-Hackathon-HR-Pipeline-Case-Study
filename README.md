@@ -3,7 +3,7 @@
 Turns six months (1 Apr - 30 Sep 2026) of messy HCM exports into a trusted SQL Server warehouse, answers the ten business
 questions with SQL, proves the numbers with 174 automated data quality checks, and explains why overtime cost keeps rising.
 
-**Team:** _add team member names here_
+**Team:** Hassan Ali
 
 > **Database note.** The case study names PostgreSQL (SQLite as the fallback). This team works in **SQL Server**, so the
 > whole pipeline is written in T-SQL + Python. If the organizers require PostgreSQL, tell us before judging; every stage
